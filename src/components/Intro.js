@@ -4,7 +4,12 @@ class Intro extends Component {
     render() {
         return(
             <div class="container">
-                Personal information
+                Personal information <br/>
+                Personal information <br/>
+                Personal information <br/>
+                Personal information <br/>
+                Personal information <br/>
+
             </div>
         )
     }

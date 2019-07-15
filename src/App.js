@@ -6,11 +6,16 @@ import Navibar from './components/Navbar.js';
 import Contact from './components/Contact.js';
 import Intro from './components/Intro.js';
 import Projects from './components/Projects.js';
+import Landing from './components/Landing.js';
 
 function App() {
   return (
     <div className="App">
         <Navibar />
+        <Landing />
+        <Intro />
+        <Projects />
+        <Contact />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -25,9 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Intro />
-      <Projects />
-      <Contact />
+
       <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
