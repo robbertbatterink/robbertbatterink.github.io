@@ -10,12 +10,18 @@ import Landing from './components/Landing.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home" style={{paddingTop: '20vh'}}>
         <Navibar />
+        <div style={{position: 'relative'}}>
         <Landing />
+        <div className="spacer1" id="info"/>
         <Intro />
+        <div className="spacer2"/>
         <Projects />
+        <div className="spacer3"/>
         <Contact />
+        <div className="spacer2"/>
+        </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

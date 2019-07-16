@@ -1,7 +1,13 @@
 .landing {
-    max-height: 100vh;
+    max-height: 80vh;
 }
 .text {
     font-size: 40px;
     font-weight: bolder;
+}
+
+#img2 {
+    height: 35%;
+    width: 35%;
+    box-shadow: 10px 10px 5px grey;
 }
