@@ -1,5 +1,5 @@
 .containerLeft {
-    padding: 100px 0 100px 25px;
+    padding: 100px 0 100px 50px;
     width: 95%;
     background-color: black;
     color: white;
@@ -15,4 +15,16 @@
     color: white;
     border-bottom-left-radius: 100px;
     border-top-left-radius: 100px;
+}
+
+.intro {
+    width: 50%;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.slideshow {
+    width: 50%;
+    height: 100%;
+    float:right;
 }

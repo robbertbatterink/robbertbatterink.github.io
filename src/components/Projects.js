@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return(
             <div style={{backgroundColor: "#6AA4B8"}}>
-            <div className="containerRight bg-dark" id="projects">
+            <div className="containerRight bg-dark">
                 project information
             </div>
             </div>

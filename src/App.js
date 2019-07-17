@@ -16,9 +16,9 @@ function App() {
         <Landing />
         <div className="spacer1" id="info"/>
         <Intro />
-        <div className="spacer2"/>
+        <div className="spacer2" id="projects"/>
         <Projects />
-        <div className="spacer3"/>
+        <div className="spacer3"id="contact"/>
         <Contact />
         <div className="spacer2"/>
         </div>

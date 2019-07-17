@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return(
             <div style={{backgroundColor: "#6AA4B8"}}>
-            <div className="containerLeft bg-dark" id="contact">
+            <div className="containerLeft bg-dark" >
                 Contact information
             </div>
             </div>
