@@ -7,6 +7,7 @@ import Contact from './components/Contact.js';
 import Intro from './components/Intro.js';
 import Projects from './components/Projects.js';
 import Landing from './components/Landing.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -20,29 +21,9 @@ function App() {
         <Projects />
         <div className="spacer3"id="contact"/>
         <Contact />
-        <div className="spacer2"/>
+        <div className="spacer4"/>
         </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
-      <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        />
+        <Footer />
     </div>
   );
 }

@@ -107,7 +107,7 @@ class Intro extends Component {
                             I also have a few hobbies, I play volleyball in my home
                             town, I also like to play games in my spare time with
                             friends, Also do some small coding projects in my spare
-                            time because I like to learn new techniques and going out
+                            time because I like to expand my programming knowledge. Going out
                             during the weekends with friends is also something I do.
                         </div>
                     </div>
