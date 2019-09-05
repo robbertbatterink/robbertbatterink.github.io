@@ -18,15 +18,39 @@
 }
 
 .intro {
-    width: 50%;
     padding-bottom: 10px;
-    font-size: 25px;
+    font-size: 1vw;
 }
 
 .slideshow {
-    width: 50%;
-    height: 50%;
-    max-height: 50%;
-    max-width: 50%;
-    float:right;
+}
+
+.git {
+    color: black;
+    float: right;
+    height: 4%;
+    width: 4%;
+}
+
+.git:hover {
+    color: grey;
+    cursor: pointer;
+    float: right;
+    height: 4%;
+    width: 4%;
+}
+
+.link {
+    color: black;
+    float: right;
+    height: 4%;
+    width: 4%;
+}
+
+.link:hover {
+    color: grey;
+    cursor: pointer;
+    float: right;
+    height: 4%;
+    width: 4%;
 }

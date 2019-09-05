@@ -10,4 +10,12 @@
     height: 35%;
     width: 35%;
     box-shadow: 10px 10px 5px grey;
+     -webkit-transition: 1s;
+}
+
+#img2:hover {
+    height: 40%;
+    width: 40%;
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
 }

@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0b49156.chunk.css",
-    "main.js": "/static/js/main.882a4ea9.chunk.js",
-    "main.js.map": "/static/js/main.882a4ea9.chunk.js.map",
+    "main.css": "/static/css/main.30fe546f.chunk.css",
+    "main.js": "/static/js/main.8614a2cf.chunk.js",
+    "main.js.map": "/static/js/main.8614a2cf.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.a5e08cfe.chunk.js": "/static/js/2.a5e08cfe.chunk.js",
-    "static/js/2.a5e08cfe.chunk.js.map": "/static/js/2.a5e08cfe.chunk.js.map",
+    "static/css/2.1fd2b905.chunk.css": "/static/css/2.1fd2b905.chunk.css",
+    "static/js/2.1d5b4b30.chunk.js": "/static/js/2.1d5b4b30.chunk.js",
+    "static/js/2.1d5b4b30.chunk.js.map": "/static/js/2.1d5b4b30.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1338cbcff00da0eddc641636e4591d5a.js": "/precache-manifest.1338cbcff00da0eddc641636e4591d5a.js",
+    "precache-manifest.41da99224d29c6ea703c003da39e692c.js": "/precache-manifest.41da99224d29c6ea703c003da39e692c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c0b49156.chunk.css.map": "/static/css/main.c0b49156.chunk.css.map",
+    "static/css/2.1fd2b905.chunk.css.map": "/static/css/2.1fd2b905.chunk.css.map",
+    "static/css/main.30fe546f.chunk.css.map": "/static/css/main.30fe546f.chunk.css.map",
     "static/media/Westerbork.JPG": "/static/media/Westerbork.6d9d23a9.JPG",
     "static/media/entrance.jpg": "/static/media/entrance.4def5a20.jpg",
     "static/media/hanze.jpg": "/static/media/hanze.14ce26ac.jpg",
     "static/media/html-programming.jpg": "/static/media/html-programming.15861e3b.jpg",
     "static/media/lariks.jpg": "/static/media/lariks.096ada18.jpg",
     "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
+    "static/media/movieapp.png": "/static/media/movieapp.f1d5befe.png",
     "static/media/picture.jpg": "/static/media/picture.b84f39fe.jpg",
+    "static/media/powerchainger.JPG": "/static/media/powerchainger.bcb93dd4.JPG",
     "static/media/profilepic.jpg": "/static/media/profilepic.6a2c6944.jpg",
-    "static/media/quinto.png": "/static/media/quinto.f356f085.png"
+    "static/media/quinto.png": "/static/media/quinto.f356f085.png",
+    "static/media/reversi.png": "/static/media/reversi.124f75e3.png",
+    "static/media/simulation.png": "/static/media/simulation.ee518851.png"
   }
 }

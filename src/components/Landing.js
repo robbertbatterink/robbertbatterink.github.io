@@ -13,7 +13,7 @@ class Landing extends Component {
                         <div className="container center text-center" style={{zIndex: 10, position: 'relative', color: 'white', justifyContent: 'center', alignItems: 'center', paddingTop: 15}}>
                             <h1 className="text">ROBBERT BATTERINK</h1>
                             <h3 className="text">SOFTWARE ENGINEER</h3>
-                            <img src={self} className="rounded-circle box-shadow" id="img2"/>
+                            <a href="https://www.linkedin.com/in/robbert-batterink-765621161/" target="_blank"><img src={self} className="rounded-circle box-shadow" id="img2"/></a>
                         </div>
                     </div>
                 </div>

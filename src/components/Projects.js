@@ -4,7 +4,10 @@ import './containers.css';
 import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
 import { Carousel, CarouselSlide } from 'material-ui-carousel'
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import Grid from '@material-ui/core/Grid';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+
+import { FaGithub, FaLink } from 'react-icons/fa'
 
 import powerchainger from "./powerchainger.JPG";
 import movieapp from "./movieapp.png";
@@ -16,10 +19,10 @@ class Projects extends Component {
         super();
         this.state = {
             pictures: [
-                {image: powerchainger, title: 'PowerChainger', index: 0},
-                {image: movieapp, title: 'MovieApp', index: 1},
-                {image: simulation, title: 'Simulation', index: 2},
-                {image: reversi, title: 'Reversi A.I', index: 3},
+                {image: powerchainger, title: 'PowerChainger',link: "https://gitlab.com/RobbertBatterink/powerchainger",index: 0},
+                {image: movieapp, title: 'MovieApp',link: "https://github.com/bigoner18/MovieApp-2.4", index: 1},
+                {image: simulation, title: 'Simulation',link: "https://gitlab.com/nvbln/project-parkeer-garage", index: 2},
+                {image: reversi, title: 'Reversi A.I',link: "https://github.com/robbertbatterink/game-framework", index: 3},
           ],
             }
     }
@@ -27,40 +30,8 @@ class Projects extends Component {
         return(
             <div style={{backgroundColor: "#6AA4B8"}}>
             <div className="containerRight bg-dark">
-            <div className="slideshow">
-            <CarouselProvider
-                  style={{height: "50%"}}
-                  naturalSlideWidth={100}
-                  naturalSlideHeight={60}
-                  totalSlides={this.state.pictures.length}
-                  isPlaying={true}
-                  dragEnabled={false}
-                >
-                  <Slider>
-                      {this.state.pictures.map(({ image, title, index }) => (
-                        <Slide index={index} key={image}>
-                          <Card>
-                            <CardMedia
-                              image={image}
-                              title={title}
-                              style={{
-                                height: '100%',
-                                paddingTop: '50%',
-                              }}
-                            />
-                            <CardContent>
-                              <Typography>{title}</Typography>
-                            </CardContent>
-                          </Card>
-                        </Slide>
-                      ))}
-                  </Slider>
-                  <div className="text-center" style={{paddingTop:5}}>
-                  <ButtonBack type="button" className="btn btn-info">Back</ButtonBack>
-                  <ButtonNext type='button' className="btn btn-info" style={{marginLeft:15}}>Next</ButtonNext>
-                  </div>
-                </CarouselProvider>
-                </div>
+            <Grid container spacing={3}>
+                <Grid item xs={12} sm={6}>
                 <h1>Projects</h1>
                 <div className="intro" id="Minor">
                     During my School career I have done some small and minor
@@ -85,6 +56,47 @@ class Projects extends Component {
                     On this project I worked on the A.I itself and also the
                     overall MVC design.
                 </div>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                <div className="slideshow">
+                <CarouselProvider
+                      style={{height: "50%"}}
+                      naturalSlideWidth={100}
+                      naturalSlideHeight={60}
+                      totalSlides={this.state.pictures.length}
+                      isPlaying={true}
+                      dragEnabled={false}
+                    >
+                      <Slider>
+                          {this.state.pictures.map(({ image, title,link ,index }) => (
+                            <Slide index={index} key={image}>
+                              <Card>
+                                <CardMedia
+                                  image={image}
+                                  title={title}
+                                  style={{
+                                    height: '100%',
+                                    paddingTop: '50%',
+                                  }}
+                                />
+                                <CardContent>
+                                  <Typography>
+                                  {title}
+                                  <a href={link} target="_blank"><FaGithub className="git"/></a>
+                                  </Typography>
+                                </CardContent>
+                              </Card>
+                            </Slide>
+                          ))}
+                      </Slider>
+                      <div className="text-center" style={{paddingTop:5}}>
+                      <ButtonBack type="button" className="btn btn-info">Back</ButtonBack>
+                      <ButtonNext type='button' className="btn btn-info" style={{marginLeft:15}}>Next</ButtonNext>
+                      </div>
+                    </CarouselProvider>
+                    </div>
+                    </Grid>
+                </Grid>
             </div>
             </div>
         )
