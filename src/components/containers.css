@@ -22,6 +22,16 @@
     font-size: 1vw;
 }
 
+.footer {
+    color: white;
+}
+
+.header {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
 .slideshow {
 }
 
@@ -52,5 +62,10 @@
     cursor: pointer;
     float: right;
     height: 4%;
+    width: 4%;
+}
+
+.contact {
+    height: 100%;
     width: 4%;
 }

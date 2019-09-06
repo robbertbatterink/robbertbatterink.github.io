@@ -3,10 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navibar from './components/Navbar.js';
-import Contact from './components/Contact.js';
 import Intro from './components/Intro.js';
 import Projects from './components/Projects.js';
 import Landing from './components/Landing.js';
+import Experience from './components/Experience.js';
 import Footer from './components/Footer.js';
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
         <Intro />
         <div className="spacer2" id="projects"/>
         <Projects />
-        <div className="spacer3"id="contact"/>
-        <Contact />
-        <div className="spacer4"/>
+        <div className="spacer3" id="experience"/>
+        <Experience />
+        <div className="spacer4" id="contact"/>
         </div>
         <Footer />
     </div>

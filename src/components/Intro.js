@@ -55,7 +55,7 @@ class Intro extends Component {
                 <div className="containerLeft bg-dark">
                     <Grid container spacing={3}>
                         <Grid item xs={12} sm={6}>
-                        <h1>About me</h1>
+                        <div className="header">About me</div>
                         <div className="intro" id="introduction">
                             My name is Robbert Batterink and I live in the village of
                             Westerbork in Drenthe, The Netherlands. I am a student

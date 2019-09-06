@@ -7,7 +7,7 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-re
 import Grid from '@material-ui/core/Grid';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-import { FaGithub, FaLink } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 
 import powerchainger from "./powerchainger.JPG";
 import movieapp from "./movieapp.png";
@@ -32,7 +32,7 @@ class Projects extends Component {
             <div className="containerRight bg-dark">
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={6}>
-                <h1>Projects</h1>
+                <div className="header">Projects</div>
                 <div className="intro" id="Minor">
                     During my School career I have done some small and minor
                     projects. I have also worked on some larger projects
