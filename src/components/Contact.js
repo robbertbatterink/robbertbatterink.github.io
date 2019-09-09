@@ -11,7 +11,7 @@ class Contact extends Component {
         return(
             <div style={{paddingTop: 100}}>
                 <div className="header text-center">Contact information</div> <br/>
-                <div className='footer center'>
+                <div className='footer center intro'>
                 <Grid container className="text-center">
                     <Grid item xs={12} sm={4}>
                         <FaLinkedin className="contact"/> : <a href="https://www.linkedin.com/in/robbert-batterink-765621161/" target="_blank"  style={{color: "white"}}>Robbert Batterink</a>
@@ -35,6 +35,7 @@ class Contact extends Component {
                     </Grid>
                 </Grid>
                 <hr style={{backgroundColor: 'white', width: '90%'}}/>
+
                 </div>
             </div>
         )

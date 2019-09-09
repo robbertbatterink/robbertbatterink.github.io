@@ -26,31 +26,31 @@
 }
 
 .spacer1 {
-    height: 100px;
+    height: 10vh;
     background-color: #6AA4B8;
-    border-bottom-left-radius: 100px;
+    border-bottom-left-radius: 10vh;
 }
 
 .spacer2 {
-    height: 100px;
+    height: 10vh;
     background-color: #6AA4B8;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-top-left-radius: 10vh;
+    border-bottom-right-radius: 10vh;
 }
 
 .spacer3 {
-    height: 100px;
+    height: 10vh;
     background-color: #6AA4B8;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+    border-bottom-left-radius: 10vh;
+    border-top-right-radius: 10vh;
 }
 
 .spacer4 {
-    height: 100px;
+    height: 10vh;
     background-color: #6AA4B8;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 100px;
+    border-bottom-right-radius: 10vh;
 }
 
 

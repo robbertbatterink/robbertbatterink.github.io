@@ -68,7 +68,7 @@ $(document).ready(function(){
                         <a className="nav-link" href="#projects">Projects</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#experience">Experience</a>
+                        <a className="nav-link" href="#skills">Skills</a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" href="#contact">Contact me</a>

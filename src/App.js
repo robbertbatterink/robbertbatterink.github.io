@@ -6,7 +6,7 @@ import Navibar from './components/Navbar.js';
 import Intro from './components/Intro.js';
 import Projects from './components/Projects.js';
 import Landing from './components/Landing.js';
-import Experience from './components/Experience.js';
+import Skills from './components/Skills.js';
 import Footer from './components/Footer.js';
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
         <Intro />
         <div className="spacer2" id="projects"/>
         <Projects />
-        <div className="spacer3" id="experience"/>
-        <Experience />
+        <div className="spacer3" id="skills"/>
+        <Skills />
         <div className="spacer4" id="contact"/>
         </div>
         <Footer />
