@@ -16,6 +16,8 @@
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
+    "react-intl": "^3.2.1",
+    "react-multi-language": "^0.4.2",
     "react-responsive-carousel": "^3.1.49",
     "react-scripts": "3.0.1",
     "react-swipeable-views": "^0.13.3"

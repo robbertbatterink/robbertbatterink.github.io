@@ -32,29 +32,31 @@ class Projects extends Component {
             <div className="containerRight bg-dark">
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={6}>
-                <div className="header">Projects</div>
+                <div className="header">Projecten</div>
                 <div className="intro" id="Minor">
-                    During my School career I have done some small and minor
-                    projects. I have also worked on some larger projects
-                    including my Minor project where I worked with a international
-                    multidisiplinairy team on a social energy marketplace with the
-                    use of Blockchain, ReactJS and Python.
+                    Tijdens mijn school cariere heb ik aan een aantal klein
+                    schalige project gewerkt. Ool heb ik aan een aantal grotere
+                    projecten gewerkt bijvoorbeeld mijn minor project. Tijdens dit project
+                    heb ik als Scrum master met een internationaal en multidisciplinaire groep
+                    gewerkt aan een sociale energie markt met gebruik van Blockchain, ReactJs en Python.
                 </div>
                 <div className="intro" id="MovieApp">
-                    Most of my larger projects are school projects. These include
-                    a ReactJS and Python application where we wanted to make a movie based
-                    social media platform where you could write reviews and recommend
-                    movies to your friends.
+                    De meeste van mijn grotere projecten zijn school projecten.
+                    Eén van deze projecten was een ReactJs en Python applicatie waarbij
+                    wij een sociaal media platform bouwden met als hoofd thema
+                    films. We wouden een platform maken waar je eigen groepen kon
+                    en reviews voor films kon maken. Ook zou je films kunnen aanbevelen aan vrienden.
                 </div>
                 <div className="intro" id="CarPark">
-                    My Java projects include a Simulation for a parking garage
-                    where we needed to simulate cars comming in and out of the
-                    garage together with cars who have reservations.
+                    Mijn Java projecten bevatten een simulatie voor een parkeer
+                    garage waar wij inkomende en vertrekkende auto's moesten
+                    simuleren samen met auto's die reserveerden en auto's die
+                    een parkeer pas houden.
                 </div>
                 <div className="intro" id="Reversie">
-                    I also worked on an A.I that you could play reversie against.
-                    On this project I worked on the A.I itself and also the
-                    overall MVC design.
+                    Ook heb ik gewerkt aan een A.I. die reversie kon spelen tegen
+                    zichzelf of tegen een persoon. Bij dit project heb ik gewerkt
+                    aan het MVC design en aan de werking van de A.I zelf.
                 </div>
                 </Grid>
                 <Grid item xs={12} sm={6}>

@@ -62,16 +62,16 @@ $(document).ready(function(){
                   <div className="collapse navbar-collapse rounded" id="navbarCustom" style={{backgroundColor: "black"}}>
                     <ul className="navbar-nav ml-auto">
                       <li className="nav-item">
-                        <a className="nav-link" href="#info">About me</a>
+                        <a className="nav-link" href="#info">Wie ben ik</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#projects">Projects</a>
+                        <a className="nav-link" href="#projects">Projecten</a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" href="#skills">Skills</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#contact">Contact me</a>
+                        <a className="nav-link" href="#contact">Contact Info</a>
                       </li>
                     </ul>
                   </div>

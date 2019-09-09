@@ -10,7 +10,7 @@ class Contact extends Component {
     render() {
         return(
             <div style={{paddingTop: 100}}>
-                <div className="header text-center">Contact information</div> <br/>
+                <div className="header text-center">Contact informatie</div> <br/>
                 <div className='footer center intro'>
                 <Grid container className="text-center">
                     <Grid item xs={12} sm={4}>
